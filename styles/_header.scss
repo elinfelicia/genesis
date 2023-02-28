@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+        &__list {
+            display: flex;
+            justify-content: flex-end;
+        }
+        &__item {
+            margin-left: 29px;
+        }
+        .logo {
+            width: 90px;
+            height: 19px;
+        }   
+}

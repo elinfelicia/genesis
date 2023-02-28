@@ -1,0 +1,19 @@
+$main-text-color: #111111;
+$sub-text-color: #979797;
+$hl-text-color: #4A4FF2;
+$main-font: 'Mulish', sans-serif; 
+
+.text--main {
+    color: $main-text-color;
+    font-family: $main-font;
+}
+.text--hl {
+    color: $hl-text-color;
+    font-family: $main-font;
+}
+.nav__item, .footer__item {
+    text-decoration: none;
+    font-family: $main-font;
+    font-size: 18px;
+    font-weight: 700;
+}

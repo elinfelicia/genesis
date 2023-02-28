@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+        &--right {
+            display: flex;
+            justify-content: end;
+        }
+        &__item {
+            margin-left: 29px;
+        }
+        &__social-logos {
+            display: flex;
+            .drbl-logo {
+                margin-left: 50px;
+            }
+            .ig-logo {
+                margin-left: 24px;
+                margin-right: 23px;
+            }
+        }
+        .logo {
+            width: 90px;
+            height: 19px;
+        }
+}
