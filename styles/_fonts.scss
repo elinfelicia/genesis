@@ -1,7 +1,9 @@
 $main-text-color: #111111;
-$sub-text-color: #979797;
+$sub-text-color: RGBA(17, 17, 17, 0.5);
 $hl-text-color: #4A4FF2;
 $main-font: 'Mulish', sans-serif; 
+$main-title-size: 40px;
+$main-text-size: 16px;
 
 .text--main {
     color: $main-text-color;
@@ -14,6 +16,23 @@ $main-font: 'Mulish', sans-serif;
 .nav__item, .footer__item {
     text-decoration: none;
     font-family: $main-font;
+    font-size: 18px;
+    font-weight: 700;
+}
+.page__title {
+    font-family: $main-font;
+    color: $main-text-color;
+    font-size: $main-title-size;
+}
+.projects__item--1 {
+    font-family: $main-font;
+    color: $sub-text-color;
+    font-size: 18px;
+    font-weight: 700;
+}
+.projects__item--2 {
+    font-family: $main-font;
+    color: $main-text-color;
     font-size: 18px;
     font-weight: 700;
 }
