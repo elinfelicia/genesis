@@ -8,6 +8,21 @@ $main-text-size: 16px;
 .text--main {
     color: $main-text-color;
     font-family: $main-font;
+    font-size: $main-text-size;
+    line-height: 26px;
+}
+.text--fade {
+    color: RGBA(17, 17, 17, 0.6);
+    font-family: $main-font;
+    font-size: $main-text-size;
+    line-height: 26px;
+}
+.text--quote {
+    color: $sub-text-color;
+    font-family: $main-font;
+    font-size: 18px;
+    line-height: 26px; 
+    font-style: italic;
 }
 .text--hl {
     color: $hl-text-color;
@@ -23,6 +38,25 @@ $main-text-size: 16px;
     font-family: $main-font;
     color: $main-text-color;
     font-size: $main-title-size;
+    line-height: 55px;
+}
+.services__title, .awards__title {
+    font-family: $main-font;
+    color: $main-text-color;
+    font-size: 28px;
+    line-height: 38px;
+}
+.services__item {
+    font-family: $main-font;
+    color: RGBA(17, 17, 17, 0.6);
+    font-size: 18px;
+    text-decoration: none;
+}
+.awards__name {
+    font-family: $main-font;
+    color: $main-text-color;
+    font-size: 18px;
+    font-weight: 700;
 }
 .projects__item--1 {
     font-family: $main-font;

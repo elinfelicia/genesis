@@ -1,0 +1,40 @@
+.projects__main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 61px;
+    margin-top: 50px;
+    .projects__text {
+        width: 58%;
+    }
+    .projects__info {
+        margin-top: 29px;
+    }
+    }
+    .projects__table {
+        width: 33%;
+        .projects__row {
+            padding-bottom: 19px;
+            border-bottom: 1px solid RGBA(17, 17, 17, 0.3);
+            .projects__item--1 {
+                width: 40%;
+                padding: 19px 0 19px 0;
+            }
+            .projects__item--2 {
+                width: 60%;
+                padding: 19px 0 19px 0;
+            }
+        } 
+    }
+.projects__mid {
+        margin: 45px 0 45px 0;
+    }
+.projects__gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+    .gallery__img {
+        max-width: 350px;
+        max-height: 400px;
+    }
+}
+    

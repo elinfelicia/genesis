@@ -1,6 +1,23 @@
 .text--main {
   color: #111111;
   font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.text--fade {
+  color: RGBA(17, 17, 17, 0.6);
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.text--quote {
+  color: RGBA(17, 17, 17, 0.5);
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
 }
 
 .text--hl {
@@ -19,6 +36,28 @@
   font-family: "Mulish", sans-serif;
   color: #111111;
   font-size: 40px;
+  line-height: 55px;
+}
+
+.services__title, .awards__title {
+  font-family: "Mulish", sans-serif;
+  color: #111111;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.services__item {
+  font-family: "Mulish", sans-serif;
+  color: RGBA(17, 17, 17, 0.6);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.awards__name {
+  font-family: "Mulish", sans-serif;
+  color: #111111;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .projects__item--1 {
@@ -81,12 +120,88 @@
   height: 19px;
 }
 
+.main__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+.main__top .text--top {
+  margin-bottom: 32px;
+}
+.main__top .quote {
+  margin-right: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.services {
+  margin-top: 51px;
+  margin-bottom: 51px;
+}
+
+.awards {
+  display: grid;
+  grid-template: repeat(2, 1fr)/repeat(12, 1fr);
+}
+.awards__title .awards__www {
+  border-top: 2px solid #D8D8D8;
+  border-bottom: 2px solid #D8D8D8;
+}
+.awards__css {
+  border-bottom: 2px solid #D8D8D8;
+}
+
+.projects__main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 61px;
+  margin-top: 50px;
+}
+.projects__main .projects__text {
+  width: 58%;
+}
+.projects__main .projects__info {
+  margin-top: 29px;
+}
+
+.projects__table {
+  width: 33%;
+}
+.projects__table .projects__row {
+  padding-bottom: 19px;
+  border-bottom: 1px solid RGBA(17, 17, 17, 0.3);
+}
+.projects__table .projects__row .projects__item--1 {
+  width: 40%;
+  padding: 19px 0 19px 0;
+}
+.projects__table .projects__row .projects__item--2 {
+  width: 60%;
+  padding: 19px 0 19px 0;
+}
+
+.projects__mid {
+  margin: 45px 0 45px 0;
+}
+
+.projects__gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+.projects__gallery .gallery__img {
+  max-width: 350px;
+  max-height: 400px;
+}
+
 .home__img {
+  margin-top: 72px;
+  margin-bottom: 40px;
   display: grid;
   grid-template: repeat(32, 1fr) repeat(3, 1fr);
   row-gap: 20px;
-  -moz-column-gap: 27px;
-       column-gap: 27px;
+  column-gap: 27px;
 }
 .home__img-1 {
   grid-area: 1/1/8/2;
@@ -130,4 +245,8 @@ body {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
-}/*# sourceMappingURL=index.css.map */
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=index.css.map */
