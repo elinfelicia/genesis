@@ -25,6 +25,10 @@
   font-family: "Mulish", sans-serif;
 }
 
+.text--top {
+  font-weight: 700;
+}
+
 .nav__item, .footer__item {
   text-decoration: none;
   font-family: "Mulish", sans-serif;
@@ -138,18 +142,58 @@
 .services {
   margin-top: 51px;
   margin-bottom: 51px;
+  display: flex;
+  justify-content: space-between;
+}
+.services__title {
+  margin-right: 59px;
+}
+.services__list {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.services__item {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.awards {
+.awards__www, .awards__css {
+  /*display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;*/
   display: grid;
-  grid-template: repeat(2, 1fr)/repeat(12, 1fr);
+  grid-template: 3fr 3fr/5fr 3fr 3fr 1fr;
+  border-bottom: 2px solid #D8D8D8;
+  padding-top: 50px;
+  padding-bottom: 58px;
 }
-.awards__title .awards__www {
+.awards__www {
   border-top: 2px solid #D8D8D8;
-  border-bottom: 2px solid #D8D8D8;
 }
-.awards__css {
-  border-bottom: 2px solid #D8D8D8;
+.awards__title {
+  grid-area: 1/1/2/2;
+}
+.awards__name--sod {
+  grid-area: 1/2/2/3;
+}
+.awards__name--bn {
+  grid-area: 2/2/3/3;
+}
+.awards__info--sod {
+  grid-area: 1/3/2/4;
+  margin-bottom: 80px;
+}
+.awards__info--bn {
+  grid-area: 2/3/3/4;
+}
+.awards__year--sod {
+  grid-area: 1/4/2/5;
+}
+.awards__year--bn {
+  grid-area: 2/4/3/5;
+}
+.awards__info--title {
+  margin-bottom: 12px;
 }
 
 .projects__main {

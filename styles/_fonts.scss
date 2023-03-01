@@ -28,6 +28,9 @@ $main-text-size: 16px;
     color: $hl-text-color;
     font-family: $main-font;
 }
+.text--top {
+    font-weight: 700;
+}
 .nav__item, .footer__item {
     text-decoration: none;
     font-family: $main-font;
