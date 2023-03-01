@@ -31,9 +31,6 @@
 }
 .awards {
     &__www, &__css {
-        /*display: flex;
-        justify-content: space-evenly;
-        align-items: flex-start;*/
         display: grid;
         grid-template: 3fr 3fr/5fr 3fr 3fr 1fr;
         border-bottom: 2px solid #D8D8D8;
