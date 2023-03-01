@@ -7,14 +7,11 @@
 @import 'contact';
 @import 'main-grid';
 
-$primary-colour: white;
 
 body {
-    background-color: $primary-colour;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
 }
-

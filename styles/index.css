@@ -1,4 +1,4 @@
-.text--main {
+.text--main, .contact__input {
   color: #111111;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -76,6 +76,27 @@
   color: #111111;
   font-size: 18px;
   font-weight: 700;
+}
+
+.contact__input::placeholder {
+  font-family: "Mulish", sans-serif;
+  color: RGBA(17, 17, 17, 0.6);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contact__info {
+  color: RGBA(17, 17, 17, 0.8);
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.contact__btn {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-style: bold;
+  color: white;
 }
 
 .nav {
@@ -239,6 +260,43 @@
   max-height: 400px;
 }
 
+.contact__main {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contact__main .contact__title {
+  margin-bottom: 22px;
+}
+.contact__main .contact__form {
+  width: 40%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: -25px;
+}
+.contact__main .contact__form .contact__btn {
+  width: 125px;
+  height: 50px;
+  background-color: #4a4ff2;
+  border: none;
+  margin-top: 38px;
+}
+.contact__main .contact__form .contact__input {
+  padding-top: 46px;
+  padding-bottom: 16px;
+  border: none;
+  border-bottom: 1px solid #D8D8D8;
+}
+
+.contact__img {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
 .home__img {
   margin-top: 72px;
   margin-bottom: 40px;
@@ -285,7 +343,6 @@
 }
 
 body {
-  background-color: white;
   width: 75%;
   margin-left: auto;
   margin-right: auto;

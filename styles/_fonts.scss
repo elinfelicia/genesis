@@ -1,24 +1,26 @@
 $main-text-color: #111111;
-$sub-text-color: RGBA(17, 17, 17, 0.5);
+$fade-text-color-5: RGBA(17, 17, 17, 0.5);
+$fade-text-color-6: RGBA(17, 17, 17, 0.6);
+$fade-text-color-8: RGBA(17, 17, 17, 0.8);
 $hl-text-color: #4A4FF2;
 $main-font: 'Mulish', sans-serif; 
 $main-title-size: 40px;
 $main-text-size: 16px;
 
-.text--main {
+.text--main, .contact__input {
     color: $main-text-color;
     font-family: $main-font;
     font-size: $main-text-size;
     line-height: 26px;
 }
 .text--fade {
-    color: RGBA(17, 17, 17, 0.6);
+    color: $fade-text-color-6;
     font-family: $main-font;
     font-size: $main-text-size;
     line-height: 26px;
 }
 .text--quote {
-    color: $sub-text-color;
+    color: $fade-text-color-5;
     font-family: $main-font;
     font-size: 18px;
     line-height: 26px; 
@@ -51,7 +53,7 @@ $main-text-size: 16px;
 }
 .services__item {
     font-family: $main-font;
-    color: RGBA(17, 17, 17, 0.6);
+    color: $fade-text-color-6;
     font-size: 18px;
     text-decoration: none;
 }
@@ -63,7 +65,7 @@ $main-text-size: 16px;
 }
 .projects__item--1 {
     font-family: $main-font;
-    color: $sub-text-color;
+    color: $fade-text-color-5;
     font-size: 18px;
     font-weight: 700;
 }
@@ -72,4 +74,22 @@ $main-text-size: 16px;
     color: $main-text-color;
     font-size: 18px;
     font-weight: 700;
+} 
+.contact__input::placeholder {
+    font-family: $main-font;
+    color: $fade-text-color-6;
+    font-size: $main-text-size;
+    font-weight: 700;
+}
+.contact__info {
+    color: $fade-text-color-8;
+    font-family: $main-font;
+    font-size: $main-text-size;
+    line-height: 26px;
+}
+.contact__btn {
+    font-family: $main-font;
+    font-size: $main-text-size;
+    font-style: bold;
+    color: white;
 }

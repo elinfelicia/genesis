@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/index.css">
-    <link rel="stylesheet" href="../styles/index.scss">
     <title>Contact</title>
 </head>
 <body>
@@ -22,22 +21,23 @@
     <main>
         <section class="contact__main">
             <div class="contact__text">
-                <h2 class="page__title">Full set of great
+                <h2 class="page__title contact__title">Full set of great
                     <br>
                     features to make your
                     <br>
                     product fresh</h2>
-                    <p class="contact__info">Our favorite brands are our friends! We help them to 
-                        achieve their goals, they help us to stay sharp.</p>
+                    <p class="contact__info text--fade">Our favorite brands are our friends! We help them to 
+                    <br>
+                    achieve their goals, they help us to stay sharp.</p>
             </div>
             <form class="contact__form" action="">
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="text" placeholder="Message">
-                <button class="btn" type="submit">Submit</button>
+                <input class="contact__input" type="text" placeholder="Name" required>
+                <input class="contact__input"  type="email" placeholder="Email" required>
+                <input class="contact__input"  type="text" placeholder="Message" required>
+                <button class="contact__btn" type="submit">Submit</button>
             </form>
-            <img class="contact__img" src="../images/map.jpg" alt="Genesis Map">
         </section>
+        <img class="contact__img" src="../images/map.jpg" alt="Genesis Map">
     </main>
     <footer>
         <section class="footer">
